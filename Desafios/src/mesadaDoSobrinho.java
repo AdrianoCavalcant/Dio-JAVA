@@ -3,20 +3,13 @@ import java.util.Scanner;
 public class mesadaDoSobrinho {
 
     public static void main(String[] args) {
-        
-        Scanner leitor = new Scanner(System.in);
        
-        int entrada;
+        Scanner leitor = new Scanner(System.in);
         int mesada = 50;
-
-        System.out.println("Quantidade de meses: " ); 
+       
+        var entrada = leitor.nextInt();
         
-        entrada = leitor.nextInt();
-        
-         System.out.println("Você tera " + mesada * entrada + " reais");
-            
-        
-
-
+        System.out.println(mesada * entrada);
+       
 
 }  }  
