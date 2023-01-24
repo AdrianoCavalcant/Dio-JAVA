@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class mesadaDoSobrinho {
+public class Program {
 
     public static void main(String[] args) {
         
@@ -9,14 +9,13 @@ public class mesadaDoSobrinho {
         int entrada;
         int mesada = 50;
 
-        System.out.println("Quantidade de meses: " ); 
+        // System.out.println("Quantidade de meses: " ); 
         
         entrada = leitor.nextInt();
         
-         System.out.println("Você tera " + mesada * entrada + " reais");
+        System.out.println(mesada * entrada);
             
-        
 
 
 
-}  }  
+}  } 
